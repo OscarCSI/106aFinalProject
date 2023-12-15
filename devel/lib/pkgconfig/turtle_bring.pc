@@ -1,0 +1,8 @@
+prefix=/home/oscar/Documents/ros_workspaces/final_project/devel
+
+Name: turtle_bring
+Description: Description of turtle_bring
+Version: 1.3.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

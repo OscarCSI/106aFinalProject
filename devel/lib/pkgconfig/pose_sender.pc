@@ -1,0 +1,8 @@
+prefix=/home/oscar/Documents/ros_workspaces/final_project/devel
+
+Name: pose_sender
+Description: Description of pose_sender
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
