@@ -37,8 +37,6 @@ class NavDetector:
 
 
 	def movebase_client(self):
-		#test goals: (0.5,0,0), (0.5,1,0)
-
 		goal = MoveBaseGoal()
 	
 
@@ -52,7 +50,6 @@ class NavDetector:
 		wait = self.client.wait_for_result()
 		if not wait:
 			print("Action server not available!")
-			# rospy.signal_shutdown("Action server not available!")
 		else:
 			print("Goal execution done!")
 			return
